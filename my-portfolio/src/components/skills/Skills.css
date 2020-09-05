@@ -1,0 +1,66 @@
+.skills_back_rectangle {
+  text-align: center;
+  background: #ffa41b;
+  height: 500px;
+}
+
+#skills {
+  padding: 25px;
+  margin-top: -450px;
+  border-radius: 15px;
+}
+
+.bg_dark {
+  background-color: #202838;
+  color: #fff !important;
+  transition: 0.3s ease-in-out;
+}
+
+#skills h1 {
+  margin: 50px auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  border-bottom: 3px solid #00a8cc;
+  width: fit-content;
+}
+
+#skills .col-sm-3 {
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px #1b2230, -5px -5px 10px #252e40;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#skills h3 {
+  font-weight: 800;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 35px;
+}
+
+#skills ul li {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 3px auto;
+  text-align: justify;
+}
+
+#skills ul li img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 0;
+  margin-right: 25px;
+  float: left;
+}
+
+#skills img {
+  margin-bottom: 20px;
+}
+
+#skills .col-sm-3 {
+  margin-bottom: 30px;
+}
