@@ -16,7 +16,7 @@ class DarkModeToggle extends Component {
     if (e.target.checked) {
       main.classList.add("dark_mode_on");
     } else {
-      main.classList.remove("dark_mode_off");
+      main.classList.remove("dark_mode_on");
     }
 
     this.setState({ darkMode: e.target.checked });
