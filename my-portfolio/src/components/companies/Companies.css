@@ -1,0 +1,21 @@
+.companies_Container {
+  margin: 100px auto;
+}
+
+.companies_Container .row {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.companies_Container h3 {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.companies_Container img {
+  width: 150px;
+  margin: 50px auto;
+  display: block;
+  cursor: pointer;
+}
