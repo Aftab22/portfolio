@@ -42,9 +42,9 @@
 
 .scroll_wheel {
   width: 3px;
-  height: 20px;
+  height: 10px;
   border-radius: 25%;
-  background-color: #000;
+  background-color: #00a8cc;
   animation-name: scroll;
   animation-duration: 1.5s;
   animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
