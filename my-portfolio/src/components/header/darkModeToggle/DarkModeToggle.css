@@ -1,0 +1,21 @@
+.toggle_button__container {
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+}
+
+/* this line hides the default check box */
+.hide_defalt_checkbox input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.icon_container {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

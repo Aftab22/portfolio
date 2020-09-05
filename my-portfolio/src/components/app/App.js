@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import Header from '../header/Header';
 
 function App() {
   return (
-    <div className="App">
-      Test 1
+    <div id="app_body">
+      <Header />
     </div>
   );
 }
