@@ -28,11 +28,15 @@ class DarkModeToggle extends Component {
     return (
       <>
         {/* Dark and Light mode toggle */}
-        <div className="toggle_button__container">
+        <div
+          className={`toggle_button__container ${
+            !this.state.darkMode ? "sun_emoji" : "moon_emoji"
+          }`}
+        >
           <label className="hide_defalt_checkbox">
             <input type="checkbox" onChange={this.toggleDarkMode} />
             <span className="icon_container">
-              {this.state.darkMode ? sun_emoji : moon_emoji}
+              {!this.state.darkMode ? sun_emoji : moon_emoji}
             </span>
           </label>
         </div>

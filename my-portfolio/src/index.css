@@ -12,3 +12,12 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
+.dark_mode_on {
+  background-color: #202838;
+  color: #fff !important;
+  transition: 1s ease-in;
+}
+
+.dark_mode_off {
+  transition: 1s ease-out;
+}

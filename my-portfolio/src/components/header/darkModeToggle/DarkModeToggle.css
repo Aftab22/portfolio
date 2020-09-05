@@ -1,7 +1,10 @@
+/* Adding widtht and height allows us to make it round */
 .toggle_button__container {
   position: absolute;
-  right: 50px;
+  right: 10px;
   font-size: 25px;
+  width: 40px;
+  height: 40px;
 }
 
 /* this line hides the default check box */
@@ -15,7 +18,37 @@
   position: absolute;
   cursor: pointer;
   top: 0;
-  left: 0;
+  left: 2px;
   right: 0;
   bottom: 0;
+}
+
+.sun_emoji {
+  animation: pulse-sun-emoji 2s infinite;
+  border-radius: 50px;
+}
+
+@keyframes pulse-sun-emoji {
+  0% {
+    box-shadow: 0 0 0 0px #505050;
+  }
+
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+.moon_emoji {
+  animation: pulse-moon-emoji 2s infinite;
+  border-radius: 50%;
+}
+
+@keyframes pulse-moon-emoji {
+  0% {
+    box-shadow: 0 0 0 0px #f9d71c;
+  }
+
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
 }
