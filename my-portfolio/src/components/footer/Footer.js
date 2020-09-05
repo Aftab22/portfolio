@@ -34,11 +34,14 @@ export default function Footer() {
             <br />
             <br />
             <p>
-              I've made this website using ReactJS + Bootstrap <br />
+              I've made this website using ReactJS.
+              <br />
               It is being hosted using AWS amplify with built in CICD.(P.S It
-              also has a dark mode)
+              also has a dark mode).
               <span style={{ fontSize: "20px" }}>&#128522;</span>
             </p>
+            <br />
+            <p>© Aftab </p>
           </div>
         </div>
       </div>
