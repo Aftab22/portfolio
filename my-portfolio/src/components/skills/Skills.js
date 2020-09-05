@@ -5,12 +5,12 @@ import { skills } from "./skills-object";
 export default function Skills() {
   return (
     <>
-      <div class="skills_back_rectangle"></div>
-      <div class="container bg_dark" id="skills">
+      <div className="skills_back_rectangle"></div>
+      <div className="container bg_dark" id="skills">
         <h1>My Skills</h1>
-        <div class="row">
+        <div className="row">
           {skills.map((skill) => (
-            <div class="col-sm-3">
+            <div className="col-sm-3">
               <img src="./images/global.png" alt="" />
               <h3>{skill.title}</h3>
               <ul>

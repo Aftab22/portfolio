@@ -6,31 +6,38 @@ import "./About.css";
 export default function About() {
   return (
     <div>
-      <div class="about_container">
+      <div className="about_container">
         {/* this is a bootstrap container */}
-        <div class="container">
+        <div className="container">
           <h1>About Me</h1>
-          <div class="row">
-            <div class="col-sm-4">
+          <div className="row">
+            <div className="col-sm-4">
               <img src={aftab_rounded} height="250px" alt="" />
-              <div class="row">
+              <div className="row">
                 <a
                   title="aftab's github"
-                  href="https://github.com/Aftab22"
+                  href="https://github.com/aftab22"
                   target="_blank"
                 >
-                  <i class="fa fa-github" aria-hidden="true"></i>
+                  <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <a
                   title="aftab's instagram"
                   href="https://www.instagram.com/aftabfaisal/"
                   target="_blank"
                 >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a
+                  title="aftab's stackoverflow"
+                  href="https://stackoverflow.com/users/10879012/aftab22"
+                  target="_blank"
+                >
+                  <i className="fa fa-stack-overflow" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
-            <div class="col-sm-8">
+            <div className="col-sm-8">
               <h2>
                 Hi, I’m
                 <span
