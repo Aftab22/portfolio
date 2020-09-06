@@ -39,7 +39,7 @@ export default function About() {
             </div>
             <div className="col-sm-8">
               <h2>
-                Hi, I’m
+                Hello, I’m
                 <span
                   style={{
                     background: "#00a8cc",
@@ -66,7 +66,7 @@ export default function About() {
               <a
                 title="download my resume?"
                 id="my_resume"
-                href="https://drive.google.com/file/d/1UcuyE9t_LG8TrLQok-7lAw_ToNOH8QJI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1SRYl14bmIGG2VpzgBh8SEVng8int9KmE/view"
                 target="_blank"
               >
                 <img src={download_icon} alt="" /> My Resume
