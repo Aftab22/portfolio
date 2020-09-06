@@ -11,6 +11,8 @@ import mongodb from "../../assets/images/icons8-mongodb.png";
 import jenkins from "../../assets/images/icons8-jenkins.png";
 import aws from "../../assets/images/icons8-aws.png";
 import git from "../../assets/images/icons8-git.png";
+import firebase from "../../assets/images/icons8-firebase.png";
+import graphql from "../../assets/images/icons8-graphql.png";
 
 export const skills = [
   {
@@ -36,7 +38,7 @@ export const skills = [
     ],
   },
   {
-    title: "Frameworks",
+    title: "Frameworks & Libraries",
     contents: [
       {
         title: "ReactJS",
@@ -53,6 +55,10 @@ export const skills = [
       {
         title: "Sass",
         img: sass,
+      },
+      {
+        title: "GraphQL",
+        img: graphql,
       },
     ],
   },
@@ -79,6 +85,10 @@ export const skills = [
       {
         title: "mongoDB",
         img: mongodb,
+      },
+      {
+        title: "Firebase",
+        img: firebase,
       },
     ],
   },

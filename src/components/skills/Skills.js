@@ -11,7 +11,6 @@ export default function Skills() {
         <div className="row">
           {skills.map((skill) => (
             <div className="col-sm-3">
-              <img src="./images/global.png" alt="" />
               <h3>{skill.title}</h3>
               <ul>
                 {skill.contents.map((content) => (
